@@ -24,6 +24,7 @@ npm start
 If the redis server is installed and running in your local machine, you will see lists, sets, ordered sets and hashes 
 displayed on Terminal. Those are basic examples to test the basic redis syntax using ioredis (in Node JS ). 
 
+Also please note that the password used in index.js needs to be the same  as the one that you use in your local redis configuration file : redis.conf (requirepass).
 
 
 

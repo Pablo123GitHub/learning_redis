@@ -6,7 +6,7 @@ import Sets from './sets';
 import SortedSets from './sortedSets';
 
 
-const redis = new Redis({ password: 'man1234ehd'});
+const redis = new Redis({ password: 'yourRedisLocalPassword'});
 
 Strings(redis);
 Hashes(redis);
